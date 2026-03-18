@@ -460,12 +460,12 @@
 
 | Уровень | Технология | Примечание |
 |---|---|---|
-| Фронтенд | TODO | Например: React, Vue, Svelte |
-| Бэкенд | TODO | Например: Node.js/Express, Python/FastAPI, Laravel |
-| База данных | TODO | Например: PostgreSQL, MySQL |
-| Аутентификация | TODO | JWT / сессии — срок жизни 12 часов |
-| Хостинг | Timeweb VPS | https://timeweb.com/ru/services/hosting/ |
-| CI/CD | TODO | Например: GitHub Actions |
+| Фронтенд | **Vue 3** | SPA, Composition API, Vite |
+| Бэкенд | **Laravel 11 (PHP)** | REST API, встроенные миграции, Eloquent ORM |
+| База данных | **MySQL 8** | Natively supported on Timeweb, Laravel-friendly |
+| Аутентификация | **Laravel Sanctum** | JWT-сессии, срок жизни 12 часов |
+| Хостинг | **Timeweb VPS** | https://timeweb.com/ru/services/hosting/ |
+| CI/CD | **GitHub Actions** | Автодеплой при пуше в main |
 | Резервное копирование | Средства хостинга Timeweb | Автоматически |
 
 ---
