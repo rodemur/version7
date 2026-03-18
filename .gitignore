@@ -1,0 +1,24 @@
+# Laravel
+backend/vendor/
+backend/storage/*.log
+backend/storage/framework/sessions/*
+backend/storage/framework/cache/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*
+backend/.env
+backend/.env.local
+
+# Vue
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# System
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+npm-debug.log*
