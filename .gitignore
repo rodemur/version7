@@ -1,4 +1,4 @@
-# Laravel
+# === Laravel (backend) ===
 backend/vendor/
 backend/storage/*.log
 backend/storage/framework/sessions/*
@@ -7,18 +7,26 @@ backend/storage/framework/views/*
 backend/bootstrap/cache/*
 backend/.env
 backend/.env.local
+backend/.idea/
+backend/.vscode/
 
-# Vue
+# === Vue (frontend) ===
 frontend/node_modules/
 frontend/dist/
 frontend/.env.local
+frontend/.env.production
 
-# System
+# === System ===
 .DS_Store
 Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+composer.phar
+
+# === IDE ===
 .idea/
 .vscode/
 *.swp
 *.swo
-*.log
-npm-debug.log*
